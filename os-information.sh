@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# echo "====================== df -h =====================" > /root/move/system-details.txt
+mkdir /root/move
+echo "====================== df -h =====================" > /root/move/system-details.txt
 df -h >> /root/move/system-details.txt
 # echo "==================================================" >> /root/move/system-details.txt
 
