@@ -1,6 +1,7 @@
 #!/bin/bash
 
-mkdir /root/move
+mkdir /root/moves
+touch /root/move/system-details.txt
 echo "====================== df -h =====================" > /root/move/system-details.txt
 df -h >> /root/move/system-details.txt
 # echo "==================================================" >> /root/move/system-details.txt
